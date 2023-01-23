@@ -1,5 +1,5 @@
 """
-This script shows how a coffe machine should work based on the requirements stated in the PDF file.
+This script shows how a coffee machine should work based on the requirements stated in the PDF file.
 """
 coffee_requirements = {
     "espresso": {"water": 50, "milk": 0, "coffee": 18, "price": 1.5},
