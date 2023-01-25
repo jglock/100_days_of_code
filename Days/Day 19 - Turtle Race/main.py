@@ -1,3 +1,8 @@
+"""
+Using the turtle package, I created a turtle race. The player can bet on a specific turtle. Then the race starts and all turtles move with randomly generated speed to the right of the screen.
+Once a turtle reaches the right screen border, the race is finished.
+"""
+
 from turtle import Turtle, Screen
 from random import randint
 
