@@ -1,3 +1,7 @@
+"""
+Final part of the classic Snake Game. Food is included and once the snake hits food, you gain a point and the snake gets longer. Furthermore, a scoreboard is added as well as collision detection.
+"""
+
 from turtle import Screen
 import time
 from snake import Snake
