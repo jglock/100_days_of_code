@@ -1,3 +1,7 @@
+"""
+First part of the classic Snake Game. In this version, the snake is animated, moves and its direction can be entered through the arrow keys.
+"""
+
 from turtle import Screen
 import time
 from snake import Snake
