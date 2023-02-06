@@ -18,5 +18,5 @@ with open("./Input/Letters/starting_letter.txt", mode="r") as f:
 for name in names:
     with open(f"./Output/ReadyToSend/letter_for_{name}.txt", mode="w") as f:
         for line in lines:
-            f.write(line.replace("[name]", name))
+            f.write(f"{line.replace('[name]', name)}\n")
     
