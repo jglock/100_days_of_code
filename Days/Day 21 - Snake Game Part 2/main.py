@@ -50,9 +50,8 @@ while game_active:
         
     #Detection of collision with wall or tail.
     if simon.wallcollision() or simon.tailcollision():
-        game_active = False
-        scoreboard.game_over()    
-        
+        scoreboard.reset()
+        simon.reset()
     
     
 screen.exitonclick()
