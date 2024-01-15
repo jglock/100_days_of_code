@@ -6,6 +6,7 @@ alphabet = pandas.read_csv("nato_phonetic_alphabet.csv")
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
 
+
 while True:
     name = input("Enter a word: ").upper()
 
@@ -13,3 +14,4 @@ while True:
 
     if name == "END":
         break
+        
